@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#3498DB ;
+    color: black;
+}   
+.cuerpo.titulo{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-left: 150px auto;
+    overflow: hidden;
+    border-bottom: 3px solid #000000;
+    margin-bottom: 3px;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+header{
+    text-align:center ;
+    background-color: transparent;
+}
+header nav ul{
+    width: 100%;
+    list-style: none;
+}
+header nav ul li{
+
+    display: inline-block;
+}
+header nav ul li a{
+   text-decoration: none;
+   display: inline-block;
+   padding: 15px 20px;
+   color: #ffffff; 
+}
+header nav ul li a:hover{
+    background-color: purple;
+    cursor: pointer;
+    color: #ffffff;
+}
+main{
+    width: 70%;
+    background-color:transparent;
+    float: left;
+}
+main h1{
+    text-align: center;
+    font-size: 50px;
+    background-color:transparent;
+    padding: 15px;
+}
+main .imagen{
+    width: 100%;
+}
+main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+main.post{
+    padding: 40px;
+}
+main .post h2{
+    margin-bottom: 20px;
+    color: #E4DFDA;
+}
+main .post article p{
+    margin-bottom: 15px;
+    line-height: 27px;
+    text-align: justify;
+}
+aside{
+    width: 30%;
+    background-color: transparent;
+    padding: 20px;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .titulo{
+    columns: #e4dfda;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 10px;
+}
+aside .widget p{
+    line-height: 27px;
+    text-align: justify;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 1px solid rgb(255,255,255,0.2);
+    padding: 10px 0;
+}
+aside .widget ul a{
+    text-decoration: none;
+    color: #e4dfda;
+}
+aside .widget ul a:hover{
+    color: #ffffff;
+}
+footer{
+    width: 100%;
+    background-color: greenyellow;
+    padding: 20px 15px;
+    clear: both;
+}
+footer p {
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    .contenedor{
+        width: 100%;  
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%
+        
+    }
+    footer{
+        width: 100%
+    }
+}
